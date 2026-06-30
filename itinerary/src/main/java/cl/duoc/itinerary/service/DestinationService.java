@@ -1,6 +1,6 @@
-package cl.duoc.traveler.service;
+package cl.duoc.itinerary.service;
 
-import cl.duoc.traveler.dto.ApiResponse;
+import cl.duoc.itinerary.dto.ApiResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.stereotype.Service;
