@@ -1,11 +1,11 @@
-CREATE TABLE itinerary (
+CREATE TABLE Itinerary (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     traveler_id BIGINT NOT NULL,
     nombre_viaje VARCHAR(255),
     destino VARCHAR(255)
 );
 
-CREATE TABLE place (
+CREATE TABLE Place (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(255),
     tipo VARCHAR(255),
