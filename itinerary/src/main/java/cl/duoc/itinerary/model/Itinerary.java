@@ -17,8 +17,10 @@ public class Itinerary {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(name = "traveler_id")
     private Long travelerId;
-
+    
+    @Column(name = "nombre_viaje")
     private String nombreViaje;
 
     private String destino;
